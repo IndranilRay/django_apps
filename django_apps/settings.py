@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 import json
 
-ENV = 'Development'
+ENV = 'Production'
 
 if ENV == 'Production':
     with open('/etc/django-app-config.json') as config_file:
